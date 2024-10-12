@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.flex {
+    display: flex;
+}
+
+/* Left div */
+.container {
+    justify-content: center;
+    gap: 100px;
+    max-width: 800px;
+    margin: 125px auto;
+}
+
+hr {
+    height: 625px;
+    margin-top: 60px;
+}
+
+.h3-cont {
+    font-size: 35px;
+    color: #333333;
+}
+
+.g-f {
+    margin-top: 50px;
+    flex-direction: column;
+    width: 200px;
+    gap: 30px;
+}
+
+.btn {
+    font-size: 17px;
+}
+
+.btn1 {
+    background-color: #3665A4;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid rgb(233, 228, 228);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.fa-square-facebook {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.fa-google {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.login-cont {
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.login-cont input {
+    height: 65px;
+    width: 400px;
+    border: 3px solid #E7E7E7;
+    padding: 20px;
+    font-size: 18px;
+    background-color: E7E7E7;
+}
+
+
+input[type="email"] {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 15px;
+    color: #868181;
+}
+
+.login-cont button {
+    margin-top: 30px;
+    width: 400px;
+    height: 65px;
+    background-color: #c9c3c3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-cont p {
+    text-align: end;
+    margin: 30px 0;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #868181;
+    cursor: pointer;
+}
+
+/* Right div */
+.register {
+    margin-top: 50px;
+}
+
+.fa-greater-than {
+    font-size: 15px;
+    color: rgb(206, 206, 96);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.res h3 {
+    font-size: 40px;
+    color: #333333;
+}
+
+.res button {
+    margin-top: 40px;
+    width: 420px;
+    height: 65px;
+    background-color: #322e2e;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.res button:hover {
+    background-color: #FFEA00;
+    color: black;
+}
+
+.lists-item p {
+    margin: 60px 0;
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.fa-circle-check {
+    font-size: 45px;
+    margin-right: 20px;
+    color: rgb(136, 169, 70);
+}
+
+.right-check ul {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content ul li {
+    list-style: none;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    color: #333030;
+}

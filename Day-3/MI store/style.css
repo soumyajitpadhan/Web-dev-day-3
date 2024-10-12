@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 240, 240);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1190px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+}
+
+/* navbar */
+.navbar {
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    padding: 10px;
+    background-color: white;
+}
+
+/* left */
+.logo-navlinks {
+    gap: 30px;
+}
+
+.logo-navlinks img {
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+
+.logo-navlinks ul {
+    gap: 30px;
+    list-style: none;
+}
+
+.logo-navlinks ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-navlinks ul li a:hover{
+    color: #FF6900;
+    text-decoration: underline;
+}
+
+#col-orn{
+    color: #FF6900;
+}
+
+/* right */
+.navlinks {
+    margin-right: 50px;
+}
+
+.navlinks ul {
+    gap: 30px;
+    list-style: none;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Product Section */
+.product-section {
+    margin-top: 30px;
+}
+
+.product-list {
+    gap: 3px;
+}
+
+.product1 {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.product1:hover {
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product1 h3,
+button {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.product1 button {
+    font-size: 15px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: orange;
+    margin-top: 10px;
+}
+
+.price {
+    margin-left: 30px;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.small-size {
+    font-size: 12px;
+}
+
+.price h3 {
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+/* Offer Section */
+.img-cont {
+    margin-top: 30px;
+    width: 1150px;
+    cursor: pointer;
+}
